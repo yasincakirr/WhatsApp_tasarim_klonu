@@ -17,17 +17,17 @@
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sohbet" />
+            android:text="SOHBET" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Durum" />
+            android:text="DURUM" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Aramalar" />
+            android:text="ARAMALAR" />
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager.widget.ViewPager
