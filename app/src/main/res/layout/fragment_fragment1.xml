@@ -12,8 +12,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="68dp"
+        android:layout_marginBottom="40dp"
         android:clickable="true"
+        android:onClick="kisiler"
         android:src="@android:drawable/ic_menu_send"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -51,9 +52,12 @@
                     <ImageView
                         android:id="@+id/imageView3"
                         android:layout_width="70dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="60dp"
                         android:layout_weight="0.1"
-                        android:src="@drawable/ic_launcher_background" />
+                        android:background="@drawable/resimtasarimi"
+                        android:scaleType="centerCrop"
+
+                        />
 
                     <LinearLayout
                         android:layout_width="match_parent"
