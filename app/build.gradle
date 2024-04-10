@@ -8,6 +8,12 @@ plugins {
 android {
     compileSdk 32
 
+    buildFeatures{
+
+        viewBinding=true
+    }
+
+
     defaultConfig {
         applicationId "com.yasincakir.whatsapp_tasarm_klon"
         minSdk 23
