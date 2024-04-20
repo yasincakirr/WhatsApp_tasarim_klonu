@@ -5,5 +5,8 @@
     <item android:title="Yeni toplu mesaj" />
     <item android:title="Bağlı cihazlar" />
     <item android:title="Yıldızlı mesajlar" />
-    <item android:title="Ayarlar" />
+    <item
+        android:id="@+id/ayarlar"
+        android:title="Ayarlar"
+        />
 </menu>
