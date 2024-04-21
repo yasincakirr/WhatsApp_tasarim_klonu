@@ -5,10 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
 import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
+import com.yasincakir.whatsapp_tasarm_klon.ayarlar.AyarlarActivity
 import com.yasincakir.whatsapp_tasarm_klon.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -54,10 +54,8 @@ class MainActivity : AppCompatActivity() {
         when (item.itemId) {
 
             R.id.ayarlar ->{
-
-
-
-
+                var intent = Intent(this, AyarlarActivity::class.java)
+                startActivity(intent)
             }
         }
         return true

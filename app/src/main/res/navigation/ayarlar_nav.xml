@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ayarlar_nav"
+    app:startDestination="@id/ayarlarFragment">
+    <fragment
+        android:id="@+id/ayarlarFragment"
+        android:name="com.yasincakir.whatsapp_tasarm_klon.ayarlar.ayarlarFragment"
+        android:label="fragment_ayarlar"
+        tools:layout="@layout/fragment_ayarlar" >
+        <action
+            android:id="@+id/bottomSheet"
+            app:destination="@id/bottomSheetTikFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/bottomSheetTikFragment"
+        android:name="com.yasincakir.whatsapp_tasarm_klon.ayarlar.bottomSheetTikFragment"
+        android:label="fragment_bottom_sheet_tik"
+        tools:layout="@layout/fragment_bottom_sheet_tik" />
+</navigation>
