@@ -12,10 +12,50 @@
         <action
             android:id="@+id/bottomSheet"
             app:destination="@id/bottomSheetTikFragment" />
+        <action
+            android:id="@+id/yardimGecis"
+            app:destination="@id/yardimFragment" />
+        <action
+            android:id="@+id/hesapGecis"
+            app:destination="@id/hesapFragment" />
+        <action
+            android:id="@+id/gizlilikGecis"
+            app:destination="@id/gizlilikFragment" />
+        <action
+            android:id="@+id/sohbetGecis"
+            app:destination="@id/sohbetlerFragment" />
+        <action
+            android:id="@+id/bildirimlerGecis"
+            app:destination="@id/bildirimlerFragment" />
     </fragment>
     <dialog
         android:id="@+id/bottomSheetTikFragment"
         android:name="com.yasincakir.whatsapp_tasarm_klon.ayarlar.bottomSheetTikFragment"
         android:label="fragment_bottom_sheet_tik"
         tools:layout="@layout/fragment_bottom_sheet_tik" />
+    <fragment
+        android:id="@+id/yardimFragment"
+        android:name="com.yasincakir.whatsapp_tasarm_klon.ayarlar.yardimFragment"
+        android:label="fragment_yardim"
+        tools:layout="@layout/fragment_yardim" />
+    <fragment
+        android:id="@+id/hesapFragment"
+        android:name="com.yasincakir.whatsapp_tasarm_klon.ayarlar.hesapFragment"
+        android:label="fragment_hesap"
+        tools:layout="@layout/fragment_hesap" />
+    <fragment
+        android:id="@+id/gizlilikFragment"
+        android:name="com.yasincakir.whatsapp_tasarm_klon.ayarlar.gizlilikFragment"
+        android:label="fragment_gizlilik"
+        tools:layout="@layout/fragment_gizlilik" />
+    <fragment
+        android:id="@+id/sohbetlerFragment"
+        android:name="com.yasincakir.whatsapp_tasarm_klon.ayarlar.sohbetlerFragment"
+        android:label="fragment_sohbetler"
+        tools:layout="@layout/fragment_sohbetler" />
+    <fragment
+        android:id="@+id/bildirimlerFragment"
+        android:name="com.yasincakir.whatsapp_tasarm_klon.ayarlar.bildirimlerFragment"
+        android:label="fragment_bildirimler"
+        tools:layout="@layout/fragment_bildirimler" />
 </navigation>

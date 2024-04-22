@@ -4,18 +4,26 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/drawable/add_call.xml" value="0.2555" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/drawable/bulut.xml" value="0.2555" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/drawable/button_tasarimi.xml" value="0.2545" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/drawable/key.xml" value="0.2555" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/drawable/key1.xml" value="0.2555" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/drawable/kosullar.xml" value="0.2555" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/drawable/resimtasarimi.xml" value="0.2545" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/drawable/sikayetler_resmi.xml" value="0.2555" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/layout/activity_ayarlar.xml" value="0.24583333333333332" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/layout/activity_main.xml" value="0.19794784095767423" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/layout/activity_main2.xml" value="0.19794784095767423" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/layout/fragment_ayarlar.xml" value="0.20094057289439932" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/layout/fragment_bildirimler.xml" value="0.20521590423257802" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/layout/fragment_bottom_sheet_tik.xml" value="0.2013681060282172" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/layout/fragment_fragment1.xml" value="0.25" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/layout/fragment_fragment2.xml" value="0.264" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/layout/fragment_fragment3.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/layout/fragment_gizlilik.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/layout/fragment_hesap.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/layout/fragment_sohbetler.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/layout/fragment_yardim.xml" value="0.20521590423257802" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Whatsapp_tasarm_klon/app/src/main/res/menu/menu_activity.xml" value="0.20512820512820512" />
       </map>
     </option>

@@ -24,6 +24,35 @@ class ayarlarFragment : Fragment() {
             Navigation.findNavController(it).navigate(R.id.bottomSheet)
         }
 
+
+        binding.cardYardim.setOnClickListener {
+
+            Navigation.findNavController(it).navigate(R.id.yardimGecis)
+        }
+
+
+
+        binding.cardHesap.setOnClickListener {
+            Navigation.findNavController(it).navigate(R.id.hesapGecis)
+        }
+
+
+        binding.cardGizlilik.setOnClickListener {
+            Navigation.findNavController(it).navigate(R.id.gizlilikGecis)
+        }
+
+
+        binding.cardSohbetler.setOnClickListener {
+            Navigation.findNavController(it).navigate(R.id.sohbetGecis)
+        }
+
+
+
+        binding.cardBildirimler.setOnClickListener {
+            Navigation.findNavController(it).navigate(R.id.bildirimlerGecis)
+        }
+
+
         return binding.root
     }
 
