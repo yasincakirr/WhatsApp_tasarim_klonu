@@ -13,14 +13,18 @@ import com.yasincakir.whatsapp_tasarm_klon.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
+
     lateinit var tabLayout: TabLayout
     lateinit var viewPager: ViewPager
+
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
+
+
 
         tabLayout = findViewById(R.id.tabLayout)
         viewPager = findViewById(R.id.viewpager)
@@ -37,6 +41,8 @@ class MainActivity : AppCompatActivity() {
         adapter.addFragment(fragment3(), "ARAMALAR")
 
         viewPager.setAdapter(adapter)
+
+
 
     }
 
